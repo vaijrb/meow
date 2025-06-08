@@ -34,7 +34,12 @@ FEEDS = {
     'Neurology Live': 'https://www.neurologylive.com/rss',
     'NINDS News': 'https://www.ninds.nih.gov/News-Events/RSS',
     'Max Planck Neuroscience': 'https://maxplanckneuroscience.org/feed',
-    'Brain Blogger': 'https://brainblogger.com/feed'
+    'Brain Blogger': 'https://brainblogger.com/feed',
+    'Psychology Today': 'https://www.psychologytoday.com/us/rss',
+    'BPS Research Digest': 'https://digest.bps.org.uk/feed/',
+    'ScienceDaily - Psychology': 'https://www.sciencedaily.com/rss/mind_brain/psychology.xml',
+    'PsyPost': 'https://www.psypost.org/feed',
+    'Psych Central': 'https://psychcentral.com/blog/feed/'
 }
 
 def fetch_articles():
