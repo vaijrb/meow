@@ -22,7 +22,19 @@ class Article(db.Model):
 FEEDS = {
     'PubMed': 'https://pubmed.ncbi.nlm.nih.gov/rss/search/1X2oNUnWsZgAe0Db1U7cJ6sBDnV6bZbiQDQ_RV6nJhQ6LUJ5QJ/?limit=10&utm_campaign=pubmed-2&fc=20240130131332',
     'Frontiers in Psychology': 'https://www.frontiersin.org/journals/psychology/rss',
-    'Nature Neuroscience': 'https://www.nature.com/subjects/neuroscience/rss'
+    'Nature Neuroscience': 'https://www.nature.com/subjects/neuroscience/rss',
+    'Neuroscience News': 'https://neurosciencenews.com/feed',
+    'Knowing Neurons': 'https://knowingneurons.com/feed',
+    'Cognitive Neuroscience Society': 'https://www.cogneurosociety.org/feed',
+    'MIT Neuroscience': 'https://news.mit.edu/rss/topic/neuroscience',
+    'McGovern Institute': 'https://mcgovern.mit.edu/news/feed',
+    'Molecular Neurodegeneration': 'https://molecularneurodegeneration.biomedcentral.com/articles.rss',
+    'Frontiers in Neuroscience': 'https://www.frontiersin.org/journals/neuroscience/rss',
+    'Neuron (Cell Press)': 'https://www.cell.com/neuron/current.rss',
+    'Neurology Live': 'https://www.neurologylive.com/rss',
+    'NINDS News': 'https://www.ninds.nih.gov/News-Events/RSS',
+    'Max Planck Neuroscience': 'https://maxplanckneuroscience.org/feed',
+    'Brain Blogger': 'https://brainblogger.com/feed'
 }
 
 def fetch_articles():
